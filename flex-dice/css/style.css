@@ -1,0 +1,206 @@
+*{margin:0;padding: 0;}
+.shaizi{
+	width: 70px;
+	height:70px;
+	border :2px solid black;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+}
+.shu{
+	width: 20px;
+	height: 20px;
+	background: black;
+	border-radius: 50%;
+}
+/*骰子为1*/
+.one{
+	display: flex;
+}
+.shaizi1{
+	flex-grow: 0;
+}
+.shaizi1-top-left{
+	
+}
+.shaizi1-top-center{
+	justify-content: center;
+}
+.shaizi1-top-right{
+	justify-content: flex-end;
+}
+.shaizi1-center-left{
+	justify-content: felx-start;
+	align-items: center;
+}
+.shaizi1-center-center{
+	justify-content: center;
+	align-items: center;
+}
+.shaizi1-center-right{
+	justify-content: flex-end;
+	align-items: center;
+}
+.shaizi1-bottom-left{
+	justify-content: felx-start;
+	align-items: flex-end;
+}
+.shaizi1-bottom-center{
+	justify-content: center;
+	align-items: flex-end;
+}
+.shaizi1-bottom-right{
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+/*骰子2*/
+.two{
+	display: flex;
+}
+.shaizi2-row-top{
+	justify-content: space-between;
+}
+.shaizi2-row-center{
+	justify-content: space-between;
+	align-items: center;
+}
+.shaizi2-row-bottom{
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.shaizi2-column-left{
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: felx-start;
+}
+.shaizi2-column-center{
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.shaizi2-column-right{
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.shaizi2-diagonal-left{
+	justify-content: space-between;
+}
+.shaizi2-diagonal-left div:nth-child(1){
+	align-self: flex-end;
+}
+.shaizi2-diagonal-right{
+	justify-content: space-between;
+}
+.shaizi2-diagonal-right div:nth-child(2){
+	align-self: flex-end;
+}
+/*骰子3*/
+.three{
+	display: flex;
+}
+.shaizi3-row-top{
+	justify-content: space-between;
+}
+.shaizi3-row-center{
+	justify-content: space-between;
+	align-items: center;
+}
+.shaizi3-row-bottom{
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.shaizi3-column-left{
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.shaizi3-column-center{
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.shaizi3-column-right{
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.shaizi3-diagonal-left{
+	flex-direction: column;
+	justify-content: space-between;
+}
+.shaizi3-diagonal-left .shu:nth-child(2){
+	align-self: center;
+}
+.shaizi3-diagonal-left .shu:nth-child(1){
+	align-self: flex-end;
+}
+.shaizi3-diagonal-right{
+	flex-direction: column;
+	justify-content: space-between;
+}
+.shaizi3-diagonal-right .shu:nth-child(2){
+	align-self: center;
+}
+.shaizi3-diagonal-right .shu:nth-child(3){
+	align-self: flex-end;
+}
+/*骰子4*/
+.four{
+	display: flex;
+}
+.shaizi4{
+	flex-direction: column;
+	justify-content: space-between;
+}
+.shaizi4-top{
+	display: flex;
+	justify-content: space-between;
+}
+.shaizi4-bottom{
+	display: flex;
+	justify-content: space-between;
+}
+.shaizi4-b{
+  	flex-wrap: wrap;
+  	justify-content: space-between;
+  	align-content: space-between;
+}
+.shaizi4-b .shu:last-child{
+	align-self: flex-end;
+}
+/*骰子5*/
+.shaizi5{
+	flex-direction: column;
+	justify-content: space-between;
+}
+.shaizi5-top{
+	display: flex;
+	justify-content: space-between;
+}
+.shaizi5-center{
+	display: flex;
+	justify-content: center;
+}
+/*骰子6*/
+.six{
+	display: flex;
+}
+.shaizi6-row{
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+.shaizi6-column{
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: space-between;
+}
+/*骰子9*/
+.shaizi9{
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
